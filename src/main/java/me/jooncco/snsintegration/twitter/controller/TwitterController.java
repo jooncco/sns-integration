@@ -42,8 +42,8 @@ public class TwitterController {
         OAuth1Operations oAuthOperations= twitterConnectionFactory.getOAuthOperations();
         OAuthToken accessToken= oAuthOperations.exchangeForAccessToken(new AuthorizedRequestToken(requestToken, oauthVerifier), null);
         Twitter twitter = new TwitterTemplate(
-                "Fdj8nGGhpUvtPEQeaLf5QXUu1",
-                "gFRt3XRCZf6V4EC8NuMWhMw1ha9S7rDnG32r1DFWcGFR9NuTN2",
+                "<CONSUMER_KEY>",
+                "<CONSUMER_SECRET>",
                 accessToken.getValue(),
                 accessToken.getSecret()
         );

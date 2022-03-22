@@ -10,8 +10,8 @@ public class TwitterConfig {
     @Bean(name = "twitterConnectionFactory")
     public TwitterConnectionFactory getTwitterConnectionFactory() {
         return new TwitterConnectionFactory(
-                "Fdj8nGGhpUvtPEQeaLf5QXUu1",
-                "gFRt3XRCZf6V4EC8NuMWhMw1ha9S7rDnG32r1DFWcGFR9NuTN2"
+                "<CONSUMER_KEY>",
+                "<CONSUMER_SECRET>"
         );
     }
 }
